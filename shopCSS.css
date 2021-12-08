@@ -1,0 +1,119 @@
+body{
+    background-image: url('4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 350px;
+    background-position-x: center;
+    background-position-y: 2.5%;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(243, 202, 21);
+    
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+   
+    padding-bottom: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #000;
+    align-items: center;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+li:hover {
+    border-bottom: 3px solid black;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    color: blue;
+    margin-top: 200px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;  
+    padding-left: 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.DIV1{
+    margin-right: 4%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.previus{
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 4px;
+}
+
+.previus:hover{
+    color: rgb(243, 202, 21);
+    border-bottom: 2px solid rgb(243, 202, 21);
+}
+
+.next-page:hover{
+    color: rgb(243, 202, 21);
+    border-bottom: 2px solid rgb(243, 202, 21);
+}
+
+.page-number {
+
+    margin-left: 6.5%;
+    display: flex;
+    align-items: center;
+}
+
+.next-page{
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 4px;
+}
+
+.pages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+
+.special{
+    border: none;
+    background:none;
+    font-size: 15px;
+    cursor: pointer;
+}
