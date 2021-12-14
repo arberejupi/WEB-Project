@@ -1,10 +1,13 @@
 body{
-    background-image: url('4.jpg');
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0%;
+    background-image: url('/shop-img/4.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed;*/
     background-size: 100% 350px;
     background-position-x: center;
-    background-position-y: 2.5%;
+    margin-bottom: 0%;
 }
 
 header{
@@ -25,16 +28,16 @@ nav{
 }
 
 li {
-   
+
     padding-bottom: 5px;
     margin-left: 20px;
     font-size: 15px;
     color: #000;
     align-items: center;
+    justify-content: space-between;
 }
 
 a {
-
     text-decoration: none;
 }
 
@@ -105,6 +108,7 @@ main{
 }
 
 .pages{
+    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     margin-left: 2.5%;
@@ -117,3 +121,218 @@ main{
     font-size: 15px;
     cursor: pointer;
 }
+.a{
+    width: 20%;
+    border: 1px solid grey;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+.arber{
+    width: 68%;
+    height: 50px;
+    background-color: rgb(240, 208, 68);;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.ejupi{
+    width: 32%;
+    height: 50px;
+    background-color: rgb(243, 202, 21);;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.e{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    color: white;
+}
+
+
+.A01{
+    display: flex;
+    align-items: top;
+    width: 50%;
+    height: 100%;
+    border: 2px solid yellow;
+    align-items: center;
+}
+
+.FD1{
+    border: 2px solid gold;
+    width: 98%;
+    height: 45%;
+    display: flex;
+}
+.ff01{
+    
+}
+.footer1{
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+h4{
+    margin-left: 3%;
+}
+.footer2{
+    align-items: center;
+    height: 70%;
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.footer22{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid blue;
+    
+}
+.FD2{
+    border: 2px solid white;
+    width: 100%;
+    height: 45%;
+    
+}
+.FD3{
+    border: 1px solid white;
+    width: 100%;
+    height: 10%;
+    
+}
+
+.F2{
+    color: white;
+    border: 2px solid white;
+    width: 25%;
+    height: 70%;
+
+}
+
+.F3{
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    height:auto;
+    display: flex;
+}
+
+.h31{
+    display: flex;
+    justify-content: center;
+   
+}
+.FD2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+hr{
+    border: 1px solid grey;
+}
+
+.ff{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 50%;
+    margin-left: 2%;
+    color: white;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 50%;
+    margin-left: 2%;
+    color: white;
+}
+.a0{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.f0{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    width: 100%;
+    margin-left: 0%;
+    color: white;
+    height: 40%;
+}
+.F03{
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    height:70%;
+    display: column;
+}
+.FD301{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    border: 2px solid gold;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.FD3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
