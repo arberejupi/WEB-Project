@@ -216,6 +216,7 @@ footer{
   align-items: center;
     
 }
+
 .footer02{
     display: flex;
     flex-direction: row;
@@ -356,4 +357,18 @@ hr{
 .visa{
     color: yellow;
     font-size: 23px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.pic-info{
+    display: flex;
+    justify-content: center;
+}
+
+.a:hover{
+    background-color: rgb(243, 202, 21);
 }
