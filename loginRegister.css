@@ -4,6 +4,11 @@ body{
     width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
+    background-image: url('shop-img/Title.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-position-x: center;
 }
 
 header{
@@ -221,6 +226,110 @@ hr{
 }
 
 main{
-    width: 100%;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.body{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-between;
+    color: black;
+}
+
+.main1{
+    width: 45%;
     height: 100%;
+    margin-top: 2.5%;
+}
+
+.id1{
+    width: 90%;
+    background-color: rgb(219, 211, 211);
+    border: none;
+    height: 30px;
+    margin-left: 3%;
+}
+.id2{
+    background-color:  rgb(248, 214, 64);
+    border: none;
+    width: 30%;
+    height: 50px;
+}
+.id3{
+    background-color:  rgb(177, 215, 80);
+    border: none;
+    width: 30%;
+    height: 50px;
+    color: white;
+}
+
+.d{
+    width: 20px;
+    height: 20px;
+    color: rgb(216, 183, 37);
+    border: none;
+    background-color: none;
+}
+.a{
+    margin-left: 0%;
+    color: rgb(149, 149, 149);
+}
+.s{
+    color: rgb(216, 183, 37);
+    margin-left: 2%;
+    margin-bottom: -1%;
+    border: 1px solid rgb(216, 183, 37);
+    background-color: none;
+}
+.color{
+    color: rgb(149, 149, 149);
+}
+
+.e{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.arber{
+    width: 68%;
+    height: 50px;
+    background-color: rgb(240, 208, 68);;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.ejupi{
+    width: 32%;
+    height: 50px;
+    background-color: rgb(243, 202, 21);;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.A01{
+    display: flex;
+    align-items: top;
+    width: 50%;
+    height: 100%;
+
+    align-items: center;
 }
