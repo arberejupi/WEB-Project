@@ -6,57 +6,86 @@ body{
     margin-bottom: 0%;
     background-image: url('shop-img/Title.png');
     background-repeat: no-repeat;
-    width: 100%;
     height: 100px;
     background-position-x: center;
 }
+ul{
 
-header{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(243, 202, 21);
-    margin-right: 0%;
-    
-}
-
-nav{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    width: 98vw;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-
-li {
-
-    padding-bottom: 5px;
-    margin-left: 20px;
-    font-size: 15px;
-    color: #000;
-    align-items: center;
-    justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
+    margin-top: 0%;
 }
 
 li:hover {
     border-bottom: 3px solid black;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #FCD846;
+    height: 50px;
+}
+header .logo{
+    background-color:#111111;
+    width: 10%;
+}
+.mainlogo #r{
+    margin-top: 13%;
+    margin-left: 20%;
+    width: 14%;
+}
+.mainlogo #ecover{
+    width: 45%;
+    margin-bottom: 1.5%;
+}
+.logoAsset img{
+    width: 100%;
+    height: 100%;
+}
+header .nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    width: 70%;
+}
+
+header .nav ul{
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    font-weight:700;
+}
+header .nav ul li{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+header .icons{
+    width: 9%;
+}
+.icons{
+    display: flex;
+    margin-left: 17%;
+    margin-right: 0%;
+}
+.icons .firstIcon{
+    width: 49%;
+    height: 100%;
+    background-color: #F3CB29;
+}
+.icons .secondIcon{
+    width: 49.5%;
+    height: 100%;
+    background-color: #111111;
+}
 
 
 footer{
-    margin-top: 0%;
+    margin-top: 3%;
     margin-bottom: 0%;
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #000;
     color: white;
 }
@@ -65,7 +94,7 @@ footer{
 .FD1{
 
     width: 98%;
-    height: 45%;
+    height: 40%;
     display: flex;
 }
 .ff01{
@@ -128,7 +157,7 @@ h4{
 .FD2{
     border: 1px solid gray;
     width: 99%;
-    height: 45%;
+    height: 40%;
     
 }
 .FD3{
@@ -290,16 +319,18 @@ main{
     margin-bottom: -1%;
     border: 1px solid rgb(216, 183, 37);
     background-color: none;
+    width: 20px;
 }
 .color{
     color: rgb(149, 149, 149);
 }
 
 .e{
-    margin-top: 3%;
+    margin-top: 0%;
+    height: 10%;
     display: flex;
     flex-direction: row;
-
+    color: black;
     flex-wrap: wrap;
 }
 
