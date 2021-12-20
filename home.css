@@ -1,7 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Times New Roman', Times, serif;
+body{
+
+    margin: 0%;
+}
+ul{
+    margin-top: 0%;
+}
+li:hover {
+    border-bottom: 3px solid black;
 }
 header{
     display: flex;
@@ -27,8 +32,10 @@ header .logo{
     height: 100%;
 }
 header .nav{
-    margin-left: 5%;
-    width: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    width: 70%;
 }
 
 header .nav ul{
@@ -134,7 +141,7 @@ header .icons{
 }
 .mainSecond{
     display: flex;
-    width: 100vw;
+    width: 100w;
     height: 200px;
     background-color: #111111;
 }
