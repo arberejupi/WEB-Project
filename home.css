@@ -42,6 +42,99 @@ header .nav ul li{
     margin-top: 2%;
     margin-right: 4%;
 }
+#navSecond:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navSecond:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[COMPANY]";
+}
+
+#navThird:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navThird:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[PROJECTS]";
+}
+
+#navFourth:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navFourth:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[SERVICES]";
+}
+
+#navFifth:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navFifth:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[PAGES]";
+}
+
+
+#navSixth:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navSixth:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[SHOP]";
+}
+
+#navSeventh:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navSeventh:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[CONTACT US]";
+}
+
+#navEighth:hover{
+    padding-right: 1%;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+}
+#navEighth:hover::before{
+    
+    visibility: visible;
+    position: absolute;
+    content: "[LOGIN]";
+}
+
+
 header .nav ul li a{
     text-decoration: none;
     color: #111111;
@@ -55,15 +148,27 @@ header .icons{
     margin-right: 0%;
 }
 .icons .firstIcon{
+    cursor: pointer;
     width: 49%;
     height: 100%;
     background-color: #F3CB29;
 }
+.firstIcon img{
+    width: 25%;
+    margin-top: 25%;
+    margin-left: 35%;
+}
 .icons .secondIcon{
-    width: 49.5%;
+    cursor: pointer;
+    width: 51%;
     height: 100%;
     background-color: #111111;
     
+}
+.secondIcon img{
+    width: 25%;
+    margin-top: 28%;
+    margin-left: 35%;
 }
 .mainFirst .mainImage{
     width: 100%;
@@ -110,14 +215,15 @@ header .icons{
     font-weight: 800;
 }
 .mainImage .mainTextAll #third{
-    margin-left: 25%;
-    text-align: inherit;
+    margin-top: 2%;
+    font-weight: 600;
+    text-align: center;
 }
 .mainText2{
     margin-top: 2%;
     margin-left: 47%;
 }
-.mainText2 p{
+.mainText2 h4{
     font-weight: 900;
     font-size: .7em;
     color: #F7D345;
@@ -169,6 +275,7 @@ header .icons{
     color:#FFFFFF;
 }
 .mainSecondText1-2 p{
+    font-weight: 900;
     font-size: .8em;
     margin-top: 1%;
     color: #4C4C4C;
@@ -190,7 +297,7 @@ header .icons{
 .mainSecondText2 img{
     width: 99%;
     margin-left: -1%;
-    margin-bottom: -6.3%;
+    margin-bottom: -6.2%;
 }
 .mainThird{
     display: flex;
@@ -225,6 +332,7 @@ header .icons{
     transform: scale(1, .9);
 }
 .mainThirdFirstText-2 p{
+    font-weight: 900;
     width: 100%;
     margin-top: 4%;
     margin-left: 8%;
