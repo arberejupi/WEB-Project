@@ -98,17 +98,20 @@ header .icons{
     transform: scale(.2, 1);
 }
 .mainImage .mainTextAll #first{
+    text-align: inherit;
     font-size: 2em;
     margin-left: 22%;
     letter-spacing: 3px;
 }
 .mainImage .mainTextAll #second{
+    text-align: center;
     font-size: 3em;
     letter-spacing: 5px;
     font-weight: 800;
 }
 .mainImage .mainTextAll #third{
     margin-left: 25%;
+    text-align: inherit;
 }
 .mainText2{
     margin-top: 2%;
@@ -229,7 +232,12 @@ header .icons{
     color: #929292;
     
 }
+.mainThirdFirstText-3:hover hr{
+    width: 24%;
+    transition: 2s;
+}
 .mainThirdFirstText-3 p a{
+    cursor: pointer;
     text-decoration: none;
     color: #111111;
     font-size: .8em;
@@ -261,6 +269,10 @@ header .icons{
 }
 .mainThirdSecond-1 img{
     width: 70%;
+}
+.mainThirdSecond-1:hover .mainThirdSecondText-3 hr{
+    width: 50%;
+    transition: 2s;
 }
 .mainThirdSecondImg{
     margin-top: 17%;
@@ -358,8 +370,13 @@ header .icons{
     height: 300px;
 }
 .allactive{
+    cursor: pointer;
     margin-top: 5%;
     margin-left: 20%;
+}
+.allactive:hover hr{
+    width: 15%;
+    transition: 2s;
 }
 .allactive h4{
     font-size: .8em;
@@ -508,9 +525,14 @@ header .icons{
 }
 .homePartnersText-3 h3{
     margin-left: 5%;
+    cursor: pointer;
     font-size: .7em;
     margin-top: 7%;
     font-weight: 900;
+}
+.homePartnersText-3:hover hr{
+    width: 15%;
+    transition: 2s;
 }
 .homePartnersText-3 hr{
     margin-top: 2%;
@@ -554,6 +576,11 @@ header .icons{
     text-align: center;
     margin-top: 5%;
     font-weight: 900;
+}
+.footerFirstPart:hover .footerFirstPart-3 hr{
+    cursor: pointer;
+    width: 10%;
+    transition: 2s;
 }
 .footerFirstPart-3 hr{
     margin-top: 5%;
