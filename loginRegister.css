@@ -1,3 +1,4 @@
+
 body{
     margin-right: 0%;
     margin-left: 0;
@@ -9,11 +10,25 @@ body{
     height: 100px;
     background-position-x: center;
 }
-ul{
+.icons{
+    display: flex;
+    align-items: center;
+}
+.firstIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.secondIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul{
     margin-top: 0%;
 }
-
 li:hover {
     border-bottom: 3px solid black;
 }
@@ -22,6 +37,7 @@ header{
     flex-direction: row;
     background-color: #FCD846;
     height: 50px;
+
 }
 header .logo{
     background-color:#111111;
@@ -263,6 +279,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 
 .body{
@@ -279,6 +296,33 @@ main{
     width: 45%;
     height: 100%;
     margin-top: 2.5%;
+    flex-wrap: wrap;
+    display: inline;
+}
+
+.main3{
+    width: 45%;
+    height: 400px;
+    border: 2px solid blue;
+    margin-left: 50%;
+    margin-top: -37%;
+    background-color: white;
+}
+
+.forma--hidden{
+    display: none;
+}
+.forma{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.id4{
+    background-color:  rgb(177, 215, 80);
+    border: none;
+    width: 30%;
+    height: 50px;
+    color: black;
+    border-radius: 3px;
 }
 
 .id1{
@@ -287,12 +331,14 @@ main{
     border: none;
     height: 30px;
     margin-left: 3%;
+    flex-wrap: wrap;
 }
 .id2{
     background-color:  rgb(248, 214, 64);
     border: none;
     width: 30%;
     height: 50px;
+    flex-wrap: wrap;
 }
 .id3{
     background-color:  rgb(177, 215, 80);
@@ -363,4 +409,26 @@ main{
     height: 100%;
 
     align-items: center;
+}
+
+.fotoLR{
+    width: 23vw;
+}
+
+::placeholder {
+    font-size: .8em;
+}
+
+.main1 input{
+    margin-top: 1%;
+}
+
+.main1 label{
+    font-size: 10px;
+}
+
+.forma input{
+    border: 1px solid black;
+    width: 60%;
+    height: 4vh;
 }
